@@ -3,7 +3,6 @@ local self = "https://raw.githubusercontent.com/backstreamed/neverdiess/main/mai
 
 local queueteleport = (type(queue_on_teleport) == "function" and queue_on_teleport)
     or (type(syn) == "table" and syn.queue_on_teleport)
-    or (type(fluxus) == "table" and fluxus.queue_on_teleport)
 
 if queueteleport then
     local queue_code = 'neverdiess_key = "' .. tostring(neverdiess_key) .. '"\n'
