@@ -1,3 +1,4 @@
+task.wait(1)
 request = request or http_request or syn.request or http.request or function(a) return {Body = game:HttpGet(a.Url)} end
 
 loadstring(request({
