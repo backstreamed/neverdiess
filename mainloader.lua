@@ -1,4 +1,3 @@
-local k = script_key or _G.script_key
 if not game:IsLoaded() then game.Loaded:Wait() end
 local r = request or http_request or (syn and syn.request)
 
